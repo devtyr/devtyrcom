@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="row-fluid">
+      <div class="span2">
+		  <ul class="nav nav-list">
+		  	<li class="nav-header">{{sidebarheader}}</li>
+		  	{{#sidebaritems}}
+		  		<li><a href="{{link}}">{{sidebartitle}}</a></li>
+		  	{{/sidebaritems}}
+		  </ul>
+	  </div>
+
+	  <div class="span8">
+	  	{{{content}}}
+	  </div>
+
+  </div>
+
+  <hr>
+
+</div> <!-- /container -->

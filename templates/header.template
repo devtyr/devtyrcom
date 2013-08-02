@@ -1,0 +1,48 @@
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{description}}">
+    <meta name="author" content="{{author}}">
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="application-name" content="DevTyr"/> 
+    <meta name="msapplication-TileColor" content="#000000"/> 
+    <meta name="msapplication-TileImage" content="assets/img/devtyr_com_win8_tile.png"/>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>-->
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700' rel='stylesheet' type='text/css'>
+    <link href="/css/basic.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <script type="text/javascript"> <!--
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+    // --> </script>
+  </head>

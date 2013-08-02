@@ -1,0 +1,28 @@
+<nav id="main-nav">
+  <ul>
+    {{#menu.items}}
+      {{#hassubmenu}}
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{Name}} <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            {{#hascategories}}
+              {{#categories}}
+                <li class="nav-header">{{name}}</li>
+                {{#subitems}}
+                  <li><a class="sub" href="{{link}}">{{name}}</a></li>
+                {{/subitems}}
+                <li class="divider"></li>
+              {{/categories}}
+            {{/hascategories}}
+            {{#subitems}}
+              <li><a class="sub" href="{{link}}">{{name}}</a></li>
+            {{/subitems}}
+          </ul>
+        </li>
+      {{/hassubmenu}}
+      {{^hassubmenu}}
+        <li><a href="{{link}}" title="{{name}}">{{name}}</a></li>
+      {{/hassubmenu}}
+    {{/menu.items}}
+  </ul>
+</nav>

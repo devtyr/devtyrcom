@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{>header}}
+
+  <body>
+
+    <header class="parallax" data-velocity="-.2" id="top-header">
+     <div class="group content">
+      {{>nav}}
+      <hgroup id="main-header">
+        <div class="avatar"></div>
+         <a href="http://devtyr.com"><h1>DevTyr</h1></a>
+         <div class="author">
+          <p>Free tools, utilities and apps for developers and users.</p>
+        </div>
+      </hgroup>
+     </div>
+     <div ></div>
+    </header>
+
+    {{>content_sidebar}}
+
+    {{>footer}}
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-366818-14']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
