@@ -1,10 +1,10 @@
 
   <head>
     <meta charset="utf-8">
-    <title>{{title}}</title>
+    <title>{{current.category}}{{#current.category}} -{{/current.category}} {{current.title}}{{#current.title}} -{{/current.title}} {{site.config.title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{description}}">
-    <meta name="author" content="{{author}}">
+    <meta name="description" content="{{current.description}}">
+    <meta name="author" content="{{current.author}}">
     <meta name="keywords" content="{{keywords}}">
     <meta name="application-name" content="DevTyr"/> 
     <meta name="msapplication-TileColor" content="#000000"/> 

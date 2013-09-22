@@ -2,16 +2,18 @@
 
   <div class="row-fluid">
       <div class="span2">
+      	  <ul class="nav nav-list">
+      	  	<li><span class="label label-primary">{{current.category}}</span></li>
+      	  </ul>
 		  <ul class="nav nav-list">
-		  	<li class="nav-header">{{sidebarheader}}</li>
-		  	{{#sidebaritems}}
-		  		<li><a href="{{link}}">{{sidebartitle}}</a></li>
-		  	{{/sidebaritems}}
+		  	{{#current.categorypages}}
+		  		<li><a href="{{url}}">{{title}}</a></li>
+		  	{{/current.categorypages}}
 		  </ul>
 	  </div>
 
 	  <div class="span8">
-	  	{{{content}}}
+	  	{{{current.content}}}
 	  </div>
 
   </div>
