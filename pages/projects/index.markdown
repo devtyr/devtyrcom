@@ -37,7 +37,7 @@ template: page
 	<div class="span4">
         <span class="label label-info">NODE.JS</span>
 	    <h2>trello-releasenotes</h2>
-	    <p>This is a really helpful Node.js application to generate release notes from your trello cards. It can also be used with <a href="/projects/ideamark/ideamark.html" title="Ideamark - A Node.js based blogging platform">Ideamark</a>.<br/><a href="/projects/trello-releasenotes/" title="Trello Release Notes Generator">More &raquo;</a></p>
+	    <p>This is a really helpful Node.js application to generate release notes from your trello cards. It can also be used with <a href="/projects/ideamark/" title="Ideamark - A Node.js based blogging platform">Ideamark</a>.<br/><a href="/projects/trello-releasenotes/" title="Trello Release Notes Generator">More &raquo;</a></p>
     </div>
     <div class="span4">
         <span class="label label-info">NODE.JS</span>

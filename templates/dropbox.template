@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <body>
+    {{{current.content}}}
+  </body>
+
+</html>
