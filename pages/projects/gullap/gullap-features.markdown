@@ -18,11 +18,9 @@ See a list of features below.
 * Based on [Mono](http://www.mono-project.org "Mono") it works on Windows and Linux
 * Supports Markdown markup
 * Supports Mustache templating engine
-* Main menu is fully built based on the source files
-	* Source file with Markdown markup are rendered as local HTML files
-	* Source files can define external Links (no markup)
-* Support for sidebar menus
+* Supports [YAML](http://yaml.org/ "YAML") Front Matter
 * Include HTML to your markup files
+* Site structure generation
 
 Gullap can easily be combined with [Bootstrap from Twitter](http://twitter.github.io/bootstrap/ "Bootstrap from Twitter") or something similiar as all templates can be defined by your own. Gullap provides generated data that can be used within your templates. See [How To](gullap-howto.html "How To") for further information.
 

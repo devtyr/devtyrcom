@@ -13,7 +13,7 @@ template: page_sidebar
 
 ## About
 
-Gullap is a [Mono](http://www.mono-project.com "Mono") based static website generator. It's similiar to [Jekyll](https://github.com/mojombo/jekyll "Jekyll") which is running on Ruby. 
+Gullap is a .NET/[Mono](http://www.mono-project.com "Mono") based static website generator. It's similiar to [Jekyll](https://github.com/mojombo/jekyll "Jekyll") which is running on Ruby. 
 
 There are not a lot tools running under .NET and Windows, one of them is [pretzel](https://github.com/Code52/pretzel "pretzel"). Not the right solution for me, it should be easier.
 
