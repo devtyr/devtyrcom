@@ -19,7 +19,7 @@ Before downloading, be sure to have the latest version of [Mono](http://www.mono
 	<div class="span6">
 	  <h4>Download compiled</h4>
 	  <p>A compiled version of Gullap. It does not contains docs or source files.</p>
-	  <p><a class="btn btn-large btn-primary" href="https://github.com/devtyr/gullap/releases/download/v1.1.0/gullap-1.1.0.zip" onclick="_gaq.push(['_trackEvent', 'Getting started with Gullap', 'Download Gullap', 'Download compiled']);">Download Gullap</a></p>
+	  <p><a class="btn btn-large btn-primary" href="https://github.com/devtyr/gullap/releases/download/v1.1.0/gullap-1.1.0.zip" onclick="_gaq.push(['_trackEvent', 'Getting started with Gullap', 'Download Gullap', 'Download compiled']);">Download Gullap 1.1.0</a></p>
 	</div>
 	<div class="span6">
 	  <h4>Download source</h4>
