@@ -1,7 +1,7 @@
 <nav id="main-nav">
   <ul>
     <li><a href="/index.html" title="Home">Home</a></li>
-    <li><a href="http://news.devtyr.com" title="DevTyr News">News</a></li>
+    <li><a href="/news.html" title="DevTyr News">News</a></li>
     <li><a href="/projects/" title="Projects">Projects</a></li>
     <li><a href="/contact.html" title="Contact">Contact</a></li>
   </ul>
