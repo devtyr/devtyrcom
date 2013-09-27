@@ -20,13 +20,13 @@
 
     <div class="container">
 
-      <ul class="nav nav-pills">
-        <li><a href="/news.html" title="DevTyr News">Back</a></li>
-      </ul>
+      <p>
+        <a href="/news.html" title="DevTyr News">Back</a>
+      </p>
 
       {{current.date}}<br/>
       <h2>{{current.title}}</h2>
-    
+      By {{current.author}}
       <p>
         {{{current.content}}}
       </p>
