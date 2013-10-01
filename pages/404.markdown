@@ -1,0 +1,20 @@
+---
+title: 404 - Not found
+description: 404 - Nothing found
+author: Norbert Eder
+template: page
+---
+
+# CONTENT NOT FOUND
+
+I did my best to find the content you've requested. I think it was there, some seconds ago. Hmmm. Can't find it at the moment. Maybe we forgot it on the toilet. I'll have a look after a short nap. Meanwhile have a look at all the other wonderful content around here.
+ 
+
+Sleeping ...
+ 
+
+Huh! Still there? Let me see what I can do for you ...
+ 
+
+No, sorry. Can't find anything. What about [this content](/projects/ "DevTyr Projects")?
+ 
