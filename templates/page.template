@@ -4,19 +4,7 @@
 
   <body>
 
-    <header class="parallax" data-velocity="-.2" id="top-header">
-     <div class="group content">
-      {{>nav}}
-      <hgroup id="main-header">
-        <div class="avatar"></div>
-         <a href="http://devtyr.com"><h1>DevTyr</h1></a>
-         <div class="author">
-          <p>Free tools, utilities and apps for developers and users.</p>
-        </div>
-      </hgroup>
-     </div>
-     <div ></div>
-    </header>
+    {{>nav}}
 
     {{>content}}
 
@@ -35,5 +23,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+  
   </body>
 </html>

@@ -10,6 +10,6 @@ category: ideamark
 template: page_sidebar
 ---
 
-## ideamark
+## About
 
 **ideamark** is an online container for your ideas, concepts and documentations based on [this-blog](https://github.com/skid/this-blog "this-blog") a simple blogging engine by [Dusko Jordanovski](https://github.com/skid "Dusko Jordanovski") written in node.js. All documents are written with Markdown markup.

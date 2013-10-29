@@ -4,34 +4,39 @@
 
   <body>
 
-    <header class="parallax" data-velocity="-.2" id="top-header">
-     <div class="group content">
-      {{>nav}}
-      <hgroup id="main-header">
-        <div class="avatar"></div>
-         <a href="http://devtyr.com"><h1>DevTyr</h1></a>
-         <div class="author">
-          <p>Free tools, utilities and apps for developers and users.</p>
-        </div>
-      </hgroup>
-     </div>
-     <div ></div>
-    </header>
+    {{>nav}}
 
-    <div class="container">
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1>{{current.title}}</h1>
+        <p>{{current.description}}</p>
+      </div>
+    </div>
 
-    {{#site.posts}}
-      {{date}}<br/>
-      <h2><a href="{{url}}">{{title}}</a></h2>
-    {{/site.posts}}
+    <div class="container bs-docs-container">
 
-    {{^site.posts}}
-      No posts available.
-    {{/site.posts}}
+    <p>
+      <ul class="list-group">
+      {{#site.posts}}
+          
+          <li class="list-group-item">
+          <a href="{{url}}">
+            {{title}}
+          </a>
+          <span class="badge">{{date}}</span>
+          </li>
+        
+      {{/site.posts}}
+      </ul>
 
-    <hr>
+      {{^site.posts}}
+        No posts available.
+      {{/site.posts}}
+    </p>
+      <hr>
 
-  </div> <!-- /container -->
+    </div>
+
 
     {{>footer}}
 

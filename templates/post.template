@@ -4,29 +4,21 @@
 
   <body>
 
-    <header class="parallax" data-velocity="-.2" id="top-header">
-     <div class="group content">
-      {{>nav}}
-      <hgroup id="main-header">
-        <div class="avatar"></div>
-         <a href="http://devtyr.com"><h1>DevTyr</h1></a>
-         <div class="author">
-          <p>Free tools, utilities and apps for developers and users.</p>
-        </div>
-      </hgroup>
-     </div>
-     <div ></div>
-    </header>
+    {{>nav}}
 
-    <div class="container">
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1>{{current.title}}</h1>
+        <p>{{current.date}} by {{current.author}}</p>
+      </div>
+    </div>
 
-      <p>
-        <a href="/news.html" title="DevTyr News">Back</a>
-      </p>
+    <div class="container bs-docs-container">
 
-      {{current.date}}<br/>
-      <h2>{{current.title}}</h2>
-      By {{current.author}}
+      <ul class="pager">
+        <li class="previous"><a href="/news.html" title="DevTyr News">&larr; Back</a></li>
+      </ul>
+      
       <p>
         {{{current.content}}}
       </p>
@@ -35,9 +27,10 @@
           <span class="label label-default">{{.}}</span> 
         {{/current.tags}}
       </p>
+
       <hr>
 
-  </div> <!-- /container -->
+    </div>
 
     {{>footer}}
 

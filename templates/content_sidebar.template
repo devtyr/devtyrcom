@@ -1,23 +1,19 @@
-<div class="container">
+<div class="bs-header" id="content">
+	<div class="container">
+		<h1>{{current.category}}</h1>
+		<p>{{current.description}}</p>
+	</div>
+</div>
 
-  <div class="row-fluid">
-      <div class="span2">
-      	  <ul class="nav nav-list">
-      	  	<li><span class="label label-primary">{{current.category}}</span></li>
-      	  </ul>
-		  <ul class="nav nav-list">
-		  	{{#current.categorypages}}
-		  		<li><a href="{{url}}">{{title}}</a></li>
-		  	{{/current.categorypages}}
-		  </ul>
-	  </div>
+<div class="container bs-docs-container">
+	<ul class="nav nav-pills">
+		{{#current.categorypages}}
+			<li><a href="{{url}}">{{title}}</a></li>
+		{{/current.categorypages}}
+	</ul>
 
-	  <div class="span8">
-	  	{{{current.content}}}
-	  </div>
+	{{{current.content}}}
 
-  </div>
+	<hr>
 
-  <hr>
-
-</div> <!-- /container -->
+</div>

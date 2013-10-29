@@ -1,6 +1,6 @@
 ---
 title: News
-description: News page of DevTyr
+description: Stay up2date! This is the DevTyr news section.
 author: Norbert Eder
 tags:
   - devtyr

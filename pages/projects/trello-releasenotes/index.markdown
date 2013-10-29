@@ -6,6 +6,6 @@ category: trello-releasenotes
 template: page_sidebar
 ---
 
-## trello-releasenotes
+## About
 
 **trello-releasenotes** is an easy solution for generating release notes from [Trello](http://trello.com "Trello") cards based on [Node.js](http://nodejs.org "Node.js"). It works very well with [ideamark](http://devtyr.github.io/ideamark/ "ideamark") and [trello-burndown](/projects/trello-burndown/trello-burndown.html "trello-burndown").
