@@ -1,6 +1,6 @@
 ---
 title: 404 - Not found
-description: 404 - Nothing found
+description: Sorry, can't find your requested page.
 author: Norbert Eder
 template: page
 ---
