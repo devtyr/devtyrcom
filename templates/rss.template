@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<title>{{site.config.title}}</title>
+	<generator>Gullap 1.2.0.0 - http://devtyr.com/gullap/</generator>
+	<language>en-US</language>
+
+	{{#site.posts}}
+    
+    <item>
+    	<title>{{title}}</title>
+    	<link>{{url}}</link>
+    	<author>{{author}}</author>
+    	<description>{{content}}</description>
+    	<pubDate>{{date}}</pubDate>
+    </item>    
+      
+    {{/site.posts}}
+
+</channel>
