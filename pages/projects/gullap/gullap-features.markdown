@@ -13,11 +13,11 @@ template: page_sidebar
 
 ## Features
 
-See a list of features below.
+`Gullap` provides a lot of features, see a list of features below.
 
 * Based on [Mono](http://www.mono-project.org "Mono") it works on Windows and Linux
-* Supports Markdown markup
-* Supports Mustache templating engine
+* Supports **Markdown** markup
+* Supports [Mustache](http://mustache.github.io/ "Mustache") templating engine
 * Supports [YAML](http://yaml.org/ "YAML") Front Matter
 * Include HTML to your markup files
 * Site structure generation
