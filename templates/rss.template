@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+	<atom:link href="http://devtyr.com/rss.xml" rel="self" type="application/rss+xml" />
 	<title>{{site.config.title}}</title>
 	<generator>Gullap 1.2.0.0 - http://devtyr.com/gullap/</generator>
+	<description>DevTyr News Feed</description>
+	<link>http://devtyr.com</link>
 	<language>en-US</language>
-
+	<lastBuildDate>{{site.time}}</lastBuildDate>
+	<webMaster>office@devtyr.com (DevTyr Webmaster)</webMaster>
 	{{#site.posts}}
-    
     <item>
     	<title>{{title}}</title>
-    	<link>{{url}}</link>
+    	<link>http://devtyr.com{{url}}</link>
     	<author>{{author}}</author>
-    	<description>{{content}}</description>
+    	<description><![CDATA[{{{content}}}]]></description>
     	<pubDate>{{date}}</pubDate>
+    	<guid>http://devtyr.com{{url}}</guid>
     </item>    
-      
     {{/site.posts}}
-
 </channel>
