@@ -1,7 +1,7 @@
 <div class="container">
 	<footer>
 		<div class="container">
-			&copy; Norbert Eder 2013 - Page generated on {{site.time}} by <a href="/projects/gullap/" title="Gullap static website generator">Gullap</a>
+			&copy; Norbert Eder 2011 - 2014 | Page generated on {{site.time}} by <a href="/projects/gullap/" title="Gullap static website generator">Gullap</a>
 		</div>
 	</footer>
 </div>
